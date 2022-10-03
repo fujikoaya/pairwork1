@@ -28,9 +28,7 @@ main{
     margin-top: 60px;
     margin-left: -100px;
 }
-.fa-light{
-    
-}
+
 
 .main-menu li{
     margin-top: 20px;
@@ -45,8 +43,50 @@ main{
     margin-left: 150px;
     width: 212px;
     height: auto;
-
 }
+.balloon1-top {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #e0edff;
+    margin-top: 92px;
+    margin-left: -108px;
+    display: none;
+  }
+  .balloon1-top1 {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #e0edff;
+    margin-top: 92px;
+    margin-left: -108px;
+    display: block;
+  }
+  
+.balloon1-top:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #e0edff;
+  }
+  
+.balloon1-top p {
+    margin: 0;
+    padding: 0;
+  }
 /* ここからあやちゃん */
 .container img{
     margin-top: 200px;
