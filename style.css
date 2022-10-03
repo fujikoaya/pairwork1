@@ -1,41 +1,43 @@
-main{
+html { scroll-behavior: smooth;}
+
+header{
     width: 100%;
     margin: auto;
     position: relative;
+    
 }
 .slider-1 img{
     width: 100%;
     height: 600px;
     
-    
 }
-
-.menu{
+.main-menu{
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: 200px;
     position: fixed;
     z-index: 9999;
     color: #fff;
     font-size: 20px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: transparent;
+    
 }
+.main-menu1{
+    color: black;
+    background-color: white;
 
-.main-menu{
-    display: flex;
-    justify-content: center;
 }
-.menu-light{
-    margin-top: 60px;
-    margin-left: -100px;
-}
-
 
 .main-menu li{
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 110px;
 
 }
+.fa-solid:hover{
+    
 
+}
 .logo{
     position: absolute;
     z-index: 9999;
@@ -43,34 +45,34 @@ main{
     margin-left: 150px;
     width: 212px;
     height: auto;
+    display: none;
 }
 .balloon1-top {
     position: relative;
-    display: inline-block;
+    display: none;
     margin: 1.5em 0;
     padding: 7px 10px;
     min-width: 120px;
     max-width: 100%;
-    color: #555;
+    color: white;
     font-size: 16px;
-    background: #e0edff;
-    margin-top: 92px;
-    margin-left: -108px;
-    display: none;
+    background: rgb(39, 54, 62);
+    margin-top: 71px;
+    margin-left: -102px;
+    
   }
   .balloon1-top1 {
     position: relative;
-    display: inline-block;
+    display: block;
     margin: 1.5em 0;
     padding: 7px 10px;
     min-width: 120px;
     max-width: 100%;
-    color: #555;
+    color: white;
     font-size: 16px;
-    background: #e0edff;
-    margin-top: 92px;
-    margin-left: -108px;
-    display: block;
+    background: rgb(39, 54, 62);
+    margin-top: 71px;
+    margin-left: -102px;
   }
   
 .balloon1-top:before {

@@ -2,9 +2,17 @@ $(function () {
     $('.slider-1').slick({
         arrows: false,
         autoplay: true,
+        
 
     });
+    
+    $('.button1').on('click',function () {
+        $('.balloon1-top').slideToggle('.balloon1-top1')
+    })
 
+    
+    
+    $('.logo').fadeIn(2000);
 
     // ここからが藤井です。
 
