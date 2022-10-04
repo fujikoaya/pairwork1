@@ -75,10 +75,10 @@ main{
 
 .gohan img{
     /* padding-top: 100px; */
-    padding-left: 300px;
+    padding-left: 350px;
 }
 
-p{
+dd{
     margin-right: 200px;
 }
 
@@ -90,31 +90,36 @@ dt{
 
 #breakfast{
     margin-top: 100px;
+    margin-left: 220px;
 }
 
 #lunch{
-    margin-left: 180px;
+    margin-left: 250px;
 }
 
 #dinner{
-    margin-left: 180px;
+    margin-left: 250px;
 }
 
 .time li{
-    position: relative;
+    /* position: relative; */
     list-style: none;
     padding: 0 0 20px 0;
+}
+li{
+    position: relative;
 }
 .timeline dl{
     margin: 0 0 20px 3em;
 }
 .boder-line{
     position: absolute;
-    left: 0.2em;
-    top: 0;
-    width: 2px;
-    height: 0;
+    left: 24%;
+    top: 20%;
+    width: 5px;
+    height: 100%;
     background-color: skyblue;
+    border-radius: 50%;
 }
 .time-line::after{
     content: absolute;
@@ -123,5 +128,5 @@ dt{
     width: 10px;
     height: 10px;
     background-color: skyblue;
-    border-radius: 50%;
+    
 }
