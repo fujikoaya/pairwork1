@@ -95,8 +95,18 @@ header{
      width: 1500px;
     height: 600px; 
     background-size: cover;
+    animation: SlideIn 1.6s ;
 } 
-
+@keyframes SlideIn{
+    0%{
+        opacity: 0;
+        transform: translateY(64px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 .container{
     position: relative;
 }
@@ -122,30 +132,40 @@ p{
 
 .gohan img{
     /* padding-top: 100px; */
-    padding-left: 350px;
+    padding-left: 150px; 
+    margin-left: 70px; 
+    margin-top: 20px;
+    width:400px;
+    height: auto;
 }
 
 dd{
-    margin-right: 200px;
+    margin-right: 250px;
+    margin-left: 50px;
 }
 
 dt{
     margin-left: 120px;
     margin-top: 50px;
     font-size: 30px;
+    font-family: 'Passions Conflict', cursive;
 }
 
 #breakfast{
     margin-top: 100px;
-    margin-left: 150px;
+    margin-left: 80px;
 }
-
+span{
+    font-size: 20px;
+}
 #lunch{
-    margin-left: 150px;
+    margin-left: 100px;
 }
-
+#afternoontea{
+    margin-left: 50px;
+}
 #dinner{
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .time li{
     /* position: relative; */
@@ -160,7 +180,7 @@ li{
 }
 .boder-line{
     position: absolute;
-    left: 17%;
+    left: 13%;
     top: 15%;
     width: 5px;
     height: 100%;
