@@ -176,3 +176,30 @@ li{
     background-color: red;
     border-radius: 50%;
 }
+
+footer{
+    margin-top: 52px;
+    border-top: solid 10px gray;
+    position: relative;
+}
+.footer-left a{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    width: 200px;
+}
+.footer-bottom{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.footer-right img{
+    width: 40px;
+    height: 40x;
+    margin-left: 15px;
+}
+.footer-right{
+    margin-top: 50px;
+    margin-left: 1000px;
+}
