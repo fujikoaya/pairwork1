@@ -1,0 +1,127 @@
+main{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.slider-1 img{
+    width: 100%;
+    height: 600px;
+    
+    
+}
+
+.menu{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    z-index: 9999;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: center;
+}
+.menu-light{
+    margin-top: 60px;
+    margin-left: -100px;
+}
+.fa-light{
+    
+}
+
+.main-menu li{
+    margin-top: 20px;
+    margin-left: 60px;
+
+}
+
+.logo{
+    position: absolute;
+    z-index: 9999;
+    margin-top: -250px;
+    margin-left: 150px;
+    width: 212px;
+    height: auto;
+
+}
+/* ここからあやちゃん */
+.container img{
+    margin-top: 200px;
+    width: 1500px;
+    height: 600px; 
+}
+
+.container{
+    position: relative;
+}
+
+#syokugurume{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.gohan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gohan img{
+    /* padding-top: 100px; */
+    padding-left: 300px;
+}
+
+p{
+    margin-right: 200px;
+}
+
+dt{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#breakfast{
+    margin-top: 100px;
+}
+
+#lunch{
+    margin-left: 180px;
+}
+
+#dinner{
+    margin-left: 180px;
+}
+
+.time li{
+    position: relative;
+    list-style: none;
+    padding: 0 0 20px 0;
+}
+.timeline dl{
+    margin: 0 0 20px 3em;
+}
+.boder-line{
+    position: absolute;
+    left: 0.2em;
+    top: 0;
+    width: 2px;
+    height: 0;
+    background-color: skyblue;
+}
+.time-line::after{
+    content: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: skyblue;
+    border-radius: 50%;
+}
