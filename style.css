@@ -104,6 +104,7 @@ header {
     background-size: cover;
 }
 
+
 .container {
     position: relative;
 }
@@ -137,6 +138,15 @@ header {
     width: 400px;
     height: auto;
 }
+.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition : all 5000ms;
+}
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
 
 dd {
     margin-right: 250px;
@@ -155,6 +165,9 @@ dt {
     margin-left: 80px;
 }
 
+#breakfast img{
+    background-color: skyblue;
+}
 span {
     font-size: 20px;
 }
