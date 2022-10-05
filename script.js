@@ -41,5 +41,6 @@ $(function () {
     $(window).on('load', function () {
         ScrollTimelineAnime();// 線が伸びる関数を呼ぶ
     });
-
+    
 });
+
